@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: lightskyblue;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.box1{
+    background-color: blueviolet;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+
+.container{
+    width: 80vw;
+    background-color: greenyellow;
+    height: 40vh;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container .ball{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}

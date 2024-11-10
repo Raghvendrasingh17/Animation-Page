@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1, .page3{
+    background-color: rgb(68, 66, 66);
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.page2{
+    background-color: rgb(101, 249, 138);
+}
+.page2 .box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+.text-container {
+    width: 100%;
+    overflow: hidden; 
+}
+
+h2 {
+    font-size: 250px;
+    transform: translateX(50%);
+    color: white;
+    white-space: nowrap; 
+}
